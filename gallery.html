@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Galleria</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="back" href="/">← Torna indietro</a>
+    <h1 id="gallery-title">Galleria</h1>
+  </header>
+
+  <main class="container">
+    <div id="photos" class="grid gallery-grid"></div>
+  </main>
+
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true">
+    <button id="close-lightbox" class="close">✕</button>
+    <img id="lightbox-img" alt="">
+  </div>
+
+  <script src="/js/gallery.js"></script>
+</body>
+</html>
